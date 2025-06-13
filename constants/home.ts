@@ -1,0 +1,181 @@
+export const locations = {
+    Sydney: {
+      name: 'Sydney',
+      properties: [
+        {
+          id: 1,
+          title: 'Modern Studio in King\'s Cross',
+          location: 'King\'s Cross, London',
+          price: 450,
+          image: 'https://images.unsplash.com/photo-1721322800607-8c38375eef04?w=400&h=300&fit=crop',
+          rating: 4.8,
+          capacity: 2,
+          amenities: ['WiFi', 'Parking', 'Gym'],
+          featured: true
+        },
+        {
+          id: 2,
+          title: 'Shared Apartment Near UCL',
+          location: 'Bloomsbury, London',
+          price: 320,
+            image: 'https://images.unsplash.com/photo-1542718610-a1d656d1884c?w=400&h=300&fit=crop',
+          rating: 4.6,
+          capacity: 4,
+          amenities: ['WiFi', 'Gym'],
+        },
+        {
+          id: 3,
+          title: 'Luxury Student Housing',
+          location: 'Canary Wharf, London',
+          price: 580,
+           image: 'https://images.unsplash.com/photo-1500673922987-e212871fec22?w=400&h=300&fit=crop',
+          rating: 4.9,
+          capacity: 1,
+          amenities: ['WiFi', 'Parking', 'Gym'],
+        },
+        {
+          id: 4,
+          title: 'Student Village Complex',
+          location: 'City Centre, London',
+          price: 380,
+          image: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=400&h=300&fit=crop',
+          rating: 4.7,
+          capacity: 3,
+          amenities: ['WiFi', 'Gym'],
+        },
+        {
+          id: 16,
+          title: 'Modern Studio in King\'s Cross',
+          location: 'King\'s Cross, London',
+          price: 450,
+          image: 'https://images.unsplash.com/photo-1466442929976-97f336a657be?w=400&h=300&fit=crop',
+          rating: 4.8,
+          capacity: 2,
+          amenities: ['WiFi', 'Parking', 'Gym'],
+          featured: true
+        },
+        {
+          id: 15,
+          title: 'Shared Apartment Near UCL',
+          location: 'Bloomsbury, London',
+          price: 320,
+         image: 'https://images.unsplash.com/photo-1500673922987-e212871fec22?w=400&h=300&fit=crop',
+          rating: 4.6,
+          capacity: 4,
+          amenities: ['WiFi', 'Gym'],
+        },
+        {
+          id: 14,
+          title: 'Luxury Student Housing',
+          location: 'Canary Wharf, London',
+          price: 580,
+           image: 'https://images.unsplash.com/photo-1542718610-a1d656d1884c?w=400&h=300&fit=crop',
+          rating: 4.9,
+          capacity: 1,
+          amenities: ['WiFi', 'Parking', 'Gym'],
+        },
+        {
+          id: 13,
+          title: 'Student Village Complex',
+          location: 'City Centre, London',
+          price: 380,
+          image: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=400&h=300&fit=crop',
+          rating: 4.7,
+          capacity: 3,
+          amenities: ['WiFi', 'Gym'],
+        }
+      ]
+    },
+    melbourne: {
+      name: 'Melbourne',
+      properties: [
+        {
+          id: 5,
+          title: 'Student Village Complex',
+          location: 'City Centre, Manchester',
+          price: 280,
+          image: 'https://images.unsplash.com/photo-1466442929976-97f336a657be?w=400&h=300&fit=crop',
+          rating: 4.5,
+          capacity: 6,
+          amenities: ['WiFi', 'Gym'],
+          featured: true
+        },
+        {
+          id: 6,
+          title: 'Cozy Flat Near University',
+          location: 'Fallowfield, Manchester',
+          price: 240,
+          image: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=400&h=300&fit=crop',
+          rating: 4.3,
+          capacity: 3,
+          amenities: ['WiFi', 'Parking'],
+        },
+        {
+          id: 7,
+          title: 'Modern Ensuite Rooms',
+          location: 'Northern Quarter, Manchester',
+          price: 350,
+          image: 'https://images.unsplash.com/photo-1500673922987-e212871fec22?w=400&h=300&fit=crop',
+          rating: 4.7,
+          capacity: 1,
+          amenities: ['WiFi', 'Gym'],
+        },
+        {
+          id: 8,
+          title: 'Campus View Apartments',
+          location: 'City Centre, Manchester',
+          price: 310,
+          image: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=400&h=300&fit=crop',
+          rating: 4.4,
+          capacity: 4,
+          amenities: ['WiFi', 'Parking'],
+        }
+      ]
+    },
+    brisbane: {
+      name: 'Brisbane',
+      properties: [
+        {
+          id: 9,
+          title: 'Campus View Apartments',
+          location: 'Edgbaston, Birmingham',
+          price: 310,
+          image: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=400&h=300&fit=crop',
+          rating: 4.4,
+          capacity: 4,
+          amenities: ['WiFi', 'Parking'],
+          featured: true
+        },
+        {
+          id: 10,
+          title: 'City Centre Studios',
+          location: 'Birmingham City Centre',
+          price: 420,
+          image: 'https://images.unsplash.com/photo-1466442929976-97f336a657be?w=400&h=300&fit=crop',
+          rating: 4.6,
+          capacity: 1,
+          amenities: ['WiFi', 'Gym'],
+        },
+        {
+          id: 11,
+          title: 'Shared House with Garden',
+          location: 'Selly Oak, Birmingham',
+          price: 260,
+          image: 'https://images.unsplash.com/photo-1551038247-3d9af20df552?w=400&h=300&fit=crop',
+          rating: 4.2,
+          capacity: 5,
+          amenities: ['WiFi', 'Parking'],
+        },
+        {
+          id: 12,
+          title: 'Modern Student Residence',
+          location: 'Birmingham University',
+          price: 340,
+         image: 'https://images.unsplash.com/photo-1721322800607-8c38375eef04?w=400&h=300&fit=crop',
+          rating: 4.5,
+          capacity: 2,
+          amenities: ['WiFi', 'Gym'],
+        }
+      ]
+    }
+  };
