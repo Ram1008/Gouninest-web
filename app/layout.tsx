@@ -50,9 +50,9 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { usePathname } from "next/navigation";
-import AdminSidebar from "./admin/AdminSidebar";
-import VendorSidebar from "./vendor/VendorSidebar";
-import UserSidebar from "./user/UserSidebar";
+// import AdminSidebar from "./admin/AdminSidebar";
+// import VendorSidebar from "./vendor/VendorSidebar";
+// import UserSidebar from "./user/UserSidebar";
 import {GlobalProvider} from '@/context/GlobalContext';
 
 // export const metadata: Metadata = {
@@ -84,9 +84,9 @@ export default function RootLayout({
       </head>
       <GlobalProvider>
       <body className="flex min-h-screen">
-        {isAdminPage && <AdminSidebar />}
+        {/* {isAdminPage && <AdminSidebar />}
         {isVendorPage && <VendorSidebar />}
-        {isUserPage && <UserSidebar />}
+        {isUserPage && <UserSidebar />} */}
 
         <div className="flex-1 flex flex-col">
           {!showSidebar && <Navbar />}
