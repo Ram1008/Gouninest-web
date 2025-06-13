@@ -50,7 +50,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { usePathname } from "next/navigation";
-import AdminSidebar from "./[admin]/AdminSidebar";
+import AdminSidebar from "./admin/AdminSidebar";
 import VendorSidebar from "./vendor/VendorSidebar";
 import UserSidebar from "./user/UserSidebar";
 import {GlobalProvider} from '@/context/GlobalContext';
