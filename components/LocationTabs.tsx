@@ -22,7 +22,7 @@ const LocationTabs = () => {
             <span className="text-gradient"> Top Locations</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Discover student accommodations in the UK's most vibrant university
+            Discover student accommodations in the UK&apos;s most vibrant university
             cities. Each location offers unique experiences and opportunities
             for your student journey.
           </p>

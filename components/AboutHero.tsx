@@ -118,7 +118,7 @@ const AboutHero = () => {
           <span className="text-gradient"> Go UniNest</span>
         </h1>
         <p className="text-xl md:text-2xl text-gray-700 mb-8 leading-relaxed">
-          We're revolutionizing student accommodation, making it easier than ever 
+          We&apos;re revolutionizing student accommodation, making it easier than ever 
           to find your perfect home away from home.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">

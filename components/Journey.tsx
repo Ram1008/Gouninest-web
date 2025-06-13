@@ -70,8 +70,8 @@ const Journey = () => {
             <span className="text-gradient"> Journey</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            From a small startup to the UK's leading student accommodation platform, 
-            here's how we've grown to serve thousands of students.
+            From a small startup to the UK&apos;s leading student accommodation platform, 
+            here&apos;s how we&apos;ve grown to serve thousands of students.
           </p>
         </div>
 

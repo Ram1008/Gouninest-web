@@ -122,7 +122,7 @@ const ContactsHero = () => {
             </span>
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            We're here to help you find your perfect student accommodation.
+            We&apos;re here to help you find your perfect student accommodation.
             Reach out to our friendly team today.
           </p>
         </div>

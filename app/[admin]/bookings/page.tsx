@@ -24,12 +24,8 @@ import {
   Eye,
   Edit,
   Calendar,
-  MapPin,
-  User,
-  Home,
   Clock,
   CheckCircle,
-  XCircle,
 } from "lucide-react";
 
 const BookingManagement = () => {

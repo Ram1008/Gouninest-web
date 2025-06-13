@@ -26,7 +26,6 @@ import {
   XCircle,
   Calendar,
   User,
-  Home,
 } from "lucide-react";
 
 const VendorBookings = () => {

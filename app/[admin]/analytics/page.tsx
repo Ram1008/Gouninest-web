@@ -24,8 +24,7 @@ import {
   TrendingUp,
   Users,
   Building2,
-  DollarSign,
-  Calendar,
+  DollarSign
 } from "lucide-react";
 
 const Analytics = () => {

@@ -10,9 +10,7 @@ import {
   BarChart3,
   TrendingUp,
   DollarSign,
-  Users,
-  Home,
-  Calendar,
+  Home
 } from "lucide-react";
 
 const VendorAnalytics = () => {

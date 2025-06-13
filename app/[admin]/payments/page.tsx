@@ -25,9 +25,7 @@ import {
   DollarSign,
   CreditCard,
   TrendingUp,
-  AlertCircle,
-  Calendar,
-  User,
+  AlertCircle
 } from "lucide-react";
 
 const PaymentManagement = () => {

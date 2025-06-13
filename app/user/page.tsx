@@ -1,6 +1,5 @@
 // import { SidebarInset, SidebarProvider } from '@/components/ui/sidebar';
 import React from 'react'
-import { Outlet } from 'react-router-dom';
 // import UserSidebar from './UserSidebar';
 
 const User = ({children} : {children: React.ReactNode}) => {

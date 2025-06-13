@@ -15,10 +15,17 @@ import {
   Settings as SettingsIcon,
   Shield,
   Bell,
-  Mail,
   CreditCard,
   Database,
 } from "lucide-react";
+
+type SettingKey =
+  | "emailNotifications"
+  | "smsNotifications"
+  | "autoApproveVendors"
+  | "maintenanceMode"
+  | "allowNewRegistrations"
+  | "requireEmailVerification";
 
 const Settings = () => {
   const [settings, setSettings] = useState({
@@ -30,7 +37,7 @@ const Settings = () => {
     requireEmailVerification: true,
   });
 
-  const toggleSetting = (key: string) => {
+  const toggleSetting = (key: SettingKey) => {
     setSettings((prev) => ({ ...prev, [key]: !prev[key] }));
   };
 

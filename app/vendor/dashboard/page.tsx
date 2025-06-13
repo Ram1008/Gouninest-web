@@ -5,8 +5,6 @@ import {
   Calendar,
   DollarSign,
   Users,
-  TrendingUp,
-  Eye,
 } from "lucide-react";
 
 const VendorDashboard = () => {

@@ -15,7 +15,6 @@ import {
   Filter,
   Eye,
   DollarSign,
-  TrendingUp,
   Calendar,
 } from "lucide-react";
 

@@ -9,7 +9,6 @@ import {
   DollarSign,
   Bell,
   BarChart3,
-  Plus,
   Users,
 } from "lucide-react";
 import { cn } from "@/lib/utils";

@@ -184,7 +184,7 @@ const PropertiesLocationTabs = () => {
             </span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Explore our verified student accommodations across the UK's top
+            Explore our verified student accommodations across the UK&apos;s top
             university cities.
           </p>
         </div>

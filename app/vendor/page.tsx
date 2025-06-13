@@ -1,6 +1,5 @@
 'use client'
 import React from 'react'
-import VendorSidebar from './VendorSidebar';
 import { Outlet } from 'react-router-dom';
 import { SidebarInset, SidebarProvider } from '@/components/ui/sidebar';
 

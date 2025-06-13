@@ -3,9 +3,7 @@ import React, { useState } from "react";
 import {
   Card,
   CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
+  CardHeader
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -29,8 +27,7 @@ import {
   Bed,
   Bath,
   Wifi,
-  Star,
-  Calendar,
+  Star
 } from "lucide-react";
 
 const PropertyManagement = () => {

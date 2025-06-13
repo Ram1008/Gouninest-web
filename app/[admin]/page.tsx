@@ -1,6 +1,5 @@
 'use client' 
 import React from "react";
-import AdminSidebar from "./AdminSidebar";
 // import { Outlet } from "react-router-dom";
 
 const Admin = ({children} : {children: React.ReactNode}) => {

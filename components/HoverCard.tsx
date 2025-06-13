@@ -7,8 +7,6 @@ interface HoverCardProps {
   price: number;
   image: string;
   rating: number;
-  capacity: number;
-  amenities: string[];
   featured?: boolean;
   colorClass: string;
 }
@@ -19,9 +17,7 @@ const HoverCard = ({
   location, 
   price, 
   image, 
-  rating, 
-  capacity, 
-  amenities, 
+  rating,
   featured = false,
   colorClass
 }: HoverCardProps) => {

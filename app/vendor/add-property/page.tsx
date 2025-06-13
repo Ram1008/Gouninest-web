@@ -28,9 +28,24 @@ import {
 import { Textarea } from "@/components/ui/textarea";
 
 const AddProperty = () => {
-  const form = useForm();
+  // Define the form data interface
+  interface PropertyFormData {
+    name: string;
+    type: string;
+    rent: number;
+    bedrooms: number;
+    bathrooms: number;
+    maxOccupancy: number;
+    address: string;
+    description: string;
+    nearestUniversity: string;
+    distanceToUniversity: number;
+    // Add more fields as needed, e.g. amenities
+  }
 
-  const onSubmit = (data: any) => {
+  const form = useForm<PropertyFormData>();
+
+  const onSubmit = (data: PropertyFormData) => {
     console.log("Property data:", data);
     // Handle form submission
   };

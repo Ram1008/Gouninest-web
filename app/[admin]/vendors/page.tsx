@@ -21,10 +21,8 @@ import {
 import {
   Search,
   Filter,
-  MoreVertical,
   Eye,
   Edit,
-  Trash2,
   Plus,
   CheckCircle,
   XCircle,
